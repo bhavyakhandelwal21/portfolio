@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#efd3bc">
+  <meta name="description" content="Portfolio of Bhavya Khandelwal, an IT undergraduate building software, AI, automation, and blockchain projects.">
+  <title>Bhavya Khandelwal — Software & AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=contact-peach">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Bhavya Khandelwal home"><span class="wordmark-mark">bk</span><span>Bhavya Khandelwal</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span></button>
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#credentials">Credentials</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="top">
+      
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> SOFTWARE &amp; APPLIED AI PORTFOLIO</div>
+        <h1>Bhavya Khandelwal<span>.</span></h1>
+        <p class="hero-intro">I’m an Information Technology undergraduate building practical software for healthcare, automation, and blockchain.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="button button-quiet" href="assets/Bhavya-Khandelwal-Resume.pdf?v=4" target="_blank" rel="noopener" aria-label="View résumé (PDF, opens in a new tab)">View résumé <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="https://github.com/bhavyakhandelwal21" target="_blank" rel="noopener" aria-label="View GitHub profile (opens in a new tab)">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta"><span>Currently studying at</span><strong>GGSIPU</strong><span class="meta-separator">·</span><span>Delhi, India</span></div>
+      </div>
+      <img class="hero-portrait" src="assets/bhavya-headshot.png" alt="Bhavya Khandelwal" width="1254" height="1254">
+    </section>
+
+    <section class="intro-strip" id="about">
+      <div class="section-wrap intro-grid">
+        <div class="section-label"><span class="mono">01</span><span>ABOUT</span></div>
+        <div class="intro-content"><h2>About me</h2><p class="body-copy">From automating purchase-order updates to prototyping healthcare decision support, I enjoy taking an idea from its first sketch through a working application. I’m especially interested in the overlap between software engineering and applied AI.</p></div>
+        <div class="intro-side"><div class="stat-number">8.7<span>/10</span></div><div class="stat-caption">CURRENT CGPA<br><span>B.Tech. in Information Technology</span></div><div class="side-line"></div><div class="mini-note">Learning the fundamentals<br>and building beyond them.</div></div>
+      </div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading"><div class="section-label"><span class="mono">02</span><span>SELECTED WORK</span></div><h2>Selected projects</h2></div>
+      <div class="project-grid">
+        <article class="project-card project-featured" id="medikiosk">
+          <div class="project-visual mediroute-cover">
+            <a href="assets/medikiosk-dashboard.png?v=dashboard" target="_blank" rel="noopener" data-screenshot aria-label="Enlarge MediKiosk dashboard screenshot">
+              <img src="assets/medikiosk-dashboard.png?v=dashboard" alt="MediKiosk dashboard with symptom logging, OCR records, and AI chatbot" width="1279" height="586" loading="lazy">
+            </a>
+          </div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">AI · HEALTHCARE</span></div><h3>MediKiosk</h3><p>A multilingual clinical-intake prototype with patient records, a conversational assistant, and OCR for prescriptions and reports.</p>
+            <p><a class="certificate-link" href="https://github.com/bhavyakhandelwal21/medikiosk" target="_blank" rel="noopener" aria-label="View MediKiosk on GitHub (opens in a new tab)">View on GitHub <span aria-hidden="true">↗</span></a></p><div class="project-stack"><span>Next.js / React</span><span>FastAPI</span><span>Gemini Flash</span><span>PaddleOCR</span><span>SQLite</span></div>
+            <details class="project-details">
+              <summary>Project details</summary>
+              <dl>
+                <div><dt>Problem</dt><dd>Patient information can be scattered across conversations, recordings, prescriptions, and PDFs, making it hard to review before a consultation.</dd></div>
+                <div><dt>How it works</dt><dd>MediKiosk combines symptoms, audio, prescriptions, PDFs, and chat responses into a multilingual medical history and a summary for the doctor.</dd></div>
+                <div>
+                  <dt>Key features</dt>
+                  <dd>
+                    <ul>
+                      <li>Upload prescriptions, PDFs, images, or audio, or type in symptoms.</li>
+                      <li>Extract text from printed and handwritten prescriptions with OCR.</li>
+                      <li>Generate multilingual medical summaries with AI.</li>
+                      <li>Collect patient history through a chatbot.</li>
+                      <li>Store previous consultations to maintain a continuous medical history.</li>
+                      <li>Prepare a structured summary for doctors.</li>
+                      <li>Flag symptoms that may need emergency attention.</li>
+                      <li>Protect account access with login and password hashing.</li>
+                    </ul>
+                  </dd>
+                </div>
+                <div><dt>My contribution</dt><dd>I built the OCR feature that extracts text from prescriptions and medical reports for use in the patient’s medical history.</dd></div>
+              </dl>
+            </details>
+            <div class="project-foot"><span>01 / 03</span><span>Patient intake · OCR</span></div></div>
+        </article>
+        <article class="project-card" id="mediroute">
+          <div class="project-visual mediroute-cover">
+            <a href="assets/mediroute-transfer-map.png" target="_blank" rel="noopener" data-screenshot aria-label="Enlarge MediRoute screenshot">
+                  <img src="assets/mediroute-transfer-map.png" alt="Recommended medicine transfer with a mapped route between facilities" width="1021" height="537" loading="lazy">
+                </a>
+          </div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">DECISION SUPPORT · HEALTHCARE</span></div><h3>MediRoute</h3><p>An inventory prototype that surfaces medicine shortages and expiry risks, then suggests redistribution and delivery routes.</p><p>Worked on MediRoute at HackBVP 8.0, a 24-hour hackathon hosted by Bharati Vidyapeeth’s College of Engineering, New Delhi.</p>
+            <p><a class="certificate-link" href="https://github.com/bhavyakhandelwal21/mediroute" target="_blank" rel="noopener" aria-label="View MediRoute on GitHub (opens in a new tab)">View on GitHub <span aria-hidden="true">↗</span></a></p><div class="project-stack"><span>React</span><span>FastAPI</span><span>Pandas</span><span>Leaflet</span><span>SQLite</span></div>
+            <details class="project-details">
+              <summary>Project details</summary>
+              <dl>
+                <div><dt>Problem</dt><dd>Medicine shortages and stock nearing expiry can lead to stockouts, wasted supplies, and urgent replacement costs.</dd></div>
+                <div><dt>How it works</dt><dd>MediRoute takes inventory and usage data from manual entries or uploaded PDFs, checks the records, estimates demand, and flags potential shortages and expiry risks. It explains suggested transfers from facilities with eligible surplus or recommends reordering. It can show transfer routes on a map. Staff review the data and recommendations before acting.</dd></div>
+                <div>
+                  <dt>Key features</dt>
+                  <dd>
+                    <ul>
+                      <li>Enter medicine inventory manually or upload a PDF.</li>
+                      <li>Forecast demand from usage patterns.</li>
+                      <li>Flag potential stockouts, expiry risks, and data issues.</li>
+                      <li>Suggest medicine transfers and reorders, with map routes for transfers.</li>
+                      <li>Explain why each recommendation was made.</li>
+                      <li>Review blood-bank inventory and suggest transfers.</li>
+                      <li>Run the prototype locally in offline mode.</li>
+                    </ul>
+                  </dd>
+                </div>
+              </dl>
+            </details>
+            <div class="project-foot"><span>02 / 03</span><span>Inventory · Routing</span></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-poolwise"><img src="assets/poolwise.png" alt="PoolWise interface with calculator, Sepolia wallet lab, swaps, and liquidity tools"><span class="visual-index">PROJECT 03</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">DEFI · SEPOLIA</span></div><h3>PoolWise</h3><p>An interactive DeFi app to compare liquidity-pool returns with holding, connect a MetaMask wallet, and practice swaps and liquidity on Sepolia.</p>
+            <p><a class="certificate-link" href="https://github.com/bhavyakhandelwal21/Poolwise" target="_blank" rel="noopener" aria-label="View PoolWise on GitHub (opens in a new tab)">View on GitHub <span aria-hidden="true">↗</span></a></p><div class="project-stack"><span>Solidity</span><span>Hardhat</span><span>ethers.js</span><span>MetaMask</span><span>Sepolia</span></div>
+            <details class="project-details">
+              <summary>Project details</summary>
+              <dl>
+                <div><dt>Problem</dt><dd>Liquidity providers often struggle to see how token price changes affect their returns and when those changes can lead to impermanent loss.</dd></div>
+                <div><dt>How it works</dt><dd>PoolWise compares holding tokens with providing liquidity as prices change. A connected Sepolia wallet lets users view live pool data and practice swaps and liquidity actions using testnet tokens.</dd></div>
+                <div>
+                  <dt>Key features</dt>
+                  <dd>
+                    <ul>
+                      <li>Calculate estimated impermanent loss as token prices change.</li>
+                      <li>Graph the value of holding tokens versus providing liquidity.</li>
+                      <li>Practice token swaps and liquidity actions in the Sepolia wallet lab.</li>
+                      <li>Inspect live pool reserves and spot prices.</li>
+                    </ul>
+                  </dd>
+                </div>
+              </dl>
+            </details>
+            <div class="project-foot"><span>03 / 03</span><span>Pool analysis · DeFi</span></div></div>
+        </article>
+      </div>
+      <div class="project-note"><span class="note-mark">↳</span><span>Each project began with a real workflow or a question worth exploring.</span></div>
+    </section>
+
+    <section class="experience-section" id="experience">
+      <div class="section-wrap experience-grid">
+        <div class="section-heading experience-heading"><div class="section-label"><span class="mono">03</span><span>EXPERIENCE</span></div><h2>AI and Automation Intern at HCLTech</h2><p class="body-copy">My HCL internship taught me how much careful automation matters when people rely on the process every week.</p><div class="exp-dates"><span class="exp-dot"></span>18 JUN — 30 JUL 2026</div></div>
+        <article class="experience-card"><div class="exp-card-head"><div><div class="company-label">HCLTech</div><h3>PO Amendment<br>Automation Bot</h3></div><span class="exp-badge">INTERNSHIP</span></div><p class="exp-summary">Built a Python bot to read purchase-order amendment emails and PDFs, update Excel records, calculate amounts and validity, and send the updated file back.</p><div class="metric-row"><div class="metric"><strong>~78<span>%</span></strong><small>FASTER PROCESSING</small><span class="metric-detail">~9 min → ~2 min per amendment</span></div><div class="metric"><strong>~3<span>h</span></strong><small>ESTIMATED TIME SAVED</small><span class="metric-detail">Per week at ~25 emails/week</span></div><div class="metric"><strong>~95<span>%</span></strong><small>EXTRACTION ACCURACY</small><span class="metric-detail">On a 20-email test batch</span></div></div><div class="workflow"><span>EMAIL + PDF</span><b>→</b><span>EXTRACT FIELDS</span><b>→</b><span>UPDATE EXCEL</span><b>→</b><span>RETURN FILE</span></div><div class="exp-tools"><span>Python</span><span>imaplib</span><span>pdfplumber</span><span>openpyxl</span><span>Regex</span></div>
+          
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section section-wrap" id="skills">
+      <div class="section-heading"><div class="section-label"><span class="mono">04</span><span>TOOLKIT</span></div><h2>Technical skills</h2></div>
+      <div class="skills-grid">
+        <article class="skill-group"><div class="skill-number">01</div><h3>Languages</h3><p>Code and reason across the stack.</p><div class="skill-list"><span>Python</span><span>JavaScript</span><span>C</span><span>C++</span><span>Solidity</span></div></article>
+        <article class="skill-group"><div class="skill-number">02</div><h3>AI & Automation</h3><p>Build useful workflows with intelligent tools.</p><div class="skill-list"><span>FastAPI</span><span>Gemini API</span><span>OCR</span><span>UiPath</span><span>Python automation</span></div></article>
+        <article class="skill-group"><div class="skill-number">03</div><h3>Web & Data</h3><p>Turn ideas into interactive applications.</p><div class="skill-list"><span>React</span><span>Next.js</span><span>SQLite</span><span>Pandas</span><span>Leaflet</span></div></article>
+        <article class="skill-group"><div class="skill-number">04</div><h3>Blockchain</h3><p>Explore smart contracts and on-chain apps.</p><div class="skill-list"><span>Hardhat</span><span>ethers.js</span><span>MetaMask</span><span>Sepolia</span><span>Solidity</span></div></article>
+      </div>
+    </section>
+
+    <section class="credentials-section" id="credentials">
+      <div class="section-wrap credentials-grid">
+        <div class="section-heading credentials-heading"><div class="section-label"><span class="mono">05</span><span>LEARNING & COMMUNITY</span></div><h2>Certifications &amp; hackathons</h2><p class="body-copy">Certificates from my internship, coursework, and hackathons.</p></div>
+        <div class="credential-list">
+          <article class="credential-item">
+            <div class="credential-icon" aria-hidden="true">◇</div>
+            <div>
+              <span class="credential-kind">INTERNSHIP</span>
+              <h3>HCLTech</h3>
+              <p>AI Automation · June–July 2026</p>
+              <details class="certificate-preview">
+              <summary>View HCLTech internship letter</summary>
+              <a href="assets/hcltech-internship.png" aria-label="Open HCLTech AI Automation internship completion letter at full size">
+                <img src="assets/hcltech-internship.png" alt="HCLTech AI Automation internship completion letter" width="336" height="483" loading="lazy">
+              </a>
+            </details>
+            </div>
+            <span class="credential-pending">COMPLETED</span>
+          </article>
+          <article class="credential-item"><div class="credential-icon">↗</div><div><span class="credential-kind">ONLINE COURSE</span><h3>The Ultimate Beginner’s Guide to AI and Machine Learning</h3><p>Udemy · Completed February 2, 2026 · 35.5 hours</p>
+            <details class="certificate-preview">
+              <summary>View Udemy course certificate</summary>
+              <a href="assets/udemy-ai-ml-certificate.png" aria-label="Open Udemy AI and machine learning certificate of completion at full size">
+                <img src="assets/udemy-ai-ml-certificate.png" alt="Udemy AI and machine learning certificate of completion" width="580" height="433" loading="lazy">
+              </a>
+            </details>
+          </div><span class="credential-pending">COMPLETED</span></article><article class="credential-item"><div class="credential-icon">✳</div><div><span class="credential-kind">HACKATHON</span><h3>HackBVP 8.0</h3><p>October 2026 · Worked on <a class="certificate-link" href="#mediroute">MediRoute</a></p>
+            <details class="certificate-preview">
+              <summary>View HackBVP participation certificate</summary>
+              <a href="assets/hackbvp-certificate.png" aria-label="Open HackBVP 8.0 certificate of appreciation at full size">
+                <img src="assets/hackbvp-certificate.png" alt="HackBVP 8.0 certificate of appreciation" width="636" height="441" loading="lazy">
+              </a>
+            </details>
+          </div><span class="credential-pending">PARTICIPATION</span></article><article class="credential-item">
+            <div class="credential-icon" aria-hidden="true">◇</div>
+            <div>
+              <span class="credential-kind">HACKATHON</span>
+              <h3>Code Build 1.0</h3>
+              <p>Selected for Round 2</p>
+              <a class="certificate-link" href="assets/cobuild-certificate.pdf" target="_blank" rel="noopener" aria-label="View Code Build 1.0 certificate (PDF, opens in a new tab)">View certificate (PDF)</a>
+            </div>
+            <span class="credential-pending">ROUND 2</span>
+          </article>
+          <article class="credential-item">
+            <div class="credential-icon" aria-hidden="true">◇</div>
+            <div>
+              <span class="credential-kind">HACKATHON</span>
+              <h3>Technotic 3.0</h3>
+              <p>Participated with Team Code and Co. at Bharati Vidyapeeth College of Engineering, New Delhi</p>
+              <a class="certificate-link" href="assets/technotic-certificate.pdf" target="_blank" rel="noopener" aria-label="View Technotic 3.0 certificate (PDF, opens in a new tab)">View certificate (PDF)</a>
+            </div>
+            <span class="credential-pending">PARTICIPATION</span>
+          </article>
+          <article class="credential-item">
+            <div class="credential-icon" aria-hidden="true">◇</div>
+            <div>
+              <span class="credential-kind">HACKATHON</span>
+              <h3>WhyCode.4u Hackathon</h3>
+              <p>Organized by Why Code</p>
+              <a class="certificate-link" href="assets/whycode4you-certificate.pdf" target="_blank" rel="noopener" aria-label="View WhyCode.4u Hackathon certificate (PDF, opens in a new tab)">View certificate (PDF)</a>
+            </div>
+            <span class="credential-pending">PARTICIPATION</span>
+          </article>
+          <article class="credential-item">
+            <div class="credential-icon" aria-hidden="true">◇</div>
+            <div><span class="credential-kind">HACKATHON</span><h3>HackIT@BVP</h3>
+              <p>Phase 1 Ideathon · April 2026</p>
+              <a class="certificate-link" href="assets/hackit-certificate.pdf" target="_blank" rel="noopener" aria-label="View HackIT@BVP certificate (PDF, opens in a new tab)">View certificate (PDF)</a>
+            </div>
+            <span class="credential-pending">PARTICIPATION</span>
+          </article></div>
+      </div>
+    </section>
+
+    <section class="education-section section-wrap" id="education">
+      <div class="section-label"><span class="mono">06</span><span>EDUCATION</span></div>
+      <div class="education-content"><h2>Bachelor of Technology<br><span>in Information Technology</span></h2><div class="education-meta"><span>Guru Gobind Singh Indraprastha University</span><span>2025 — 2029</span><strong>CGPA 8.7 / 10</strong></div><div class="coursework"><span class="course-label">COURSEWORK</span><div class="course-tags"><span>Digital Logic & Computer Design</span><span>Data Structures</span><span>Object-Oriented Programming</span><span>Computational Methods</span></div></div></div>
+      <div class="education-seal" aria-hidden="true"><span>GGSIPU</span><b>IT</b><span>2025—29</span></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-wrap"><div class="section-label"><span class="mono">07</span><span>CONTACT</span></div><div class="contact-main"><h2>Get in touch</h2><a class="contact-email" href="mailto:bhavyakhandelwal2112@gmail.com">bhavyakhandelwal2112@gmail.com <span aria-hidden="true">↗</span></a></div><div class="contact-side"><div class="contact-detail"><span>EMAIL</span><a href="mailto:bhavyakhandelwal2112@gmail.com">bhavyakhandelwal2112@gmail.com</a></div><div class="contact-detail"><span>GITHUB</span><a href="https://github.com/bhavyakhandelwal21" target="_blank" rel="noopener" aria-label="GitHub profile: bhavyakhandelwal21 (opens in a new tab)">@bhavyakhandelwal21 <span aria-hidden="true">↗</span></a></div><div class="contact-detail"><span>BASED IN</span><p>Delhi, India</p></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark">bk</span><span>Bhavya Khandelwal</span></a><span>Built with curiosity & care.</span><a href="#top" class="back-top">BACK TO TOP ↑</a><span class="footer-year">© <span id="year">2026</span></span></footer>
+
+  <dialog class="screenshot-viewer" id="screenshot-viewer" aria-labelledby="screenshot-title">
+    <div class="screenshot-toolbar">
+      <h2 id="screenshot-title">MediRoute screenshot</h2>
+      <a class="screenshot-original" target="_blank" rel="noopener">Open original ↗</a>
+      <form method="dialog"><button type="submit" autofocus>Close</button></form>
+    </div>
+    <img class="screenshot-full" alt="">
+  </dialog>
+  <script src="script.js?v=screenshot-viewer"></script>
+</body>
+</html>
